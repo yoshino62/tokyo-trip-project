@@ -3,8 +3,18 @@ body {
   background-color: #333333;
 }
 
-container {
+.container {
   max-width: 1400px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -55,7 +65,43 @@ header a {
   padding: 16px 32px;
 }
 
-@media (max-width: 900px) {
+footer {
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
+    url("../images/footer-tokyo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  line-height: 24px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: #fff;
+  opacity: 0.7;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
