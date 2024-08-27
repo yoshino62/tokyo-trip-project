@@ -67,7 +67,7 @@ header a {
 
 footer {
   color: #fff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
     url("../images/footer-tokyo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
