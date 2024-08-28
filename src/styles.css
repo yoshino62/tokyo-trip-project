@@ -17,19 +17,58 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-3-columns-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.card {
+  background-color: #fff;
+  margin-top: 30px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 20px;
+}
+
+.btn {
+  display: block;
+  background-color: #462cb3;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px;
+}
+
 .img-responsive {
   max-width: 100%;
-  width: 500px;
+  display: block;
+}
+
+.text-center {
+  text-align: center;
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 100px;
+}
+
+section.secondry {
+  background-color: #f8f8f8;
 }
 
 header {
@@ -104,6 +143,22 @@ main h3 {
   font-size: 28px;
   line-height: 1.5;
   margin: 0;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #333333;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: #333333;
 }
 
 main p {
